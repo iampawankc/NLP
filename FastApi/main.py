@@ -25,3 +25,6 @@ def getAllValuesByParam(param_name:str):
 @app.post("/items/")
 async def create_item(item: Item):
     return item
+
+#To run this use below command
+# uvicorn main:app --reload
